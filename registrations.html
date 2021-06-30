@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registration</title>
+</head>
+<body>
+  <style type="text/css">
+    .registration{
+      text-align: center;
+      margin-top:5%;
+      border:solid 2px;
+      width: 40%;
+      margin-left: 30%;
+      height: 450px;
+      background-color:skyblue;
+    }
+    input{
+      width: 250px;
+      text-align: center;
+
+    }
+.submit{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background:#1161ee; 
+    color: white;
+   }
+label {
+
+
+}
+  </style>
+	<div class="registration">
+<form action="registration" method="POST">
+ <h2 style="color: white;">Registration Form</h2>
+ <label> First Name:</label>
+   <input type="text" name="first_name" placeholder="Enter Your  First Name"><br><br>
+    <label>Last Name:</label>
+   <input type="text" name="last_name" placeholder="Enter Your Last Name" ><br><br>
+    <label>Username:</label>
+   <input type="username" name="username" placeholder="Enter Your Username"><br><br>
+    <label>DOB</label>
+  <input type="date" name="username" placeholder="Enter Your Username" style="margin-left: 30px;"><br><br>
+   <label>Email:</label>
+   <input type="email" name="email" placeholder="Enter Your Email "style="margin-left: 27px;"><br><br>
+    <label>Password:</label>
+   <input type= "password" name="password1" placeholder="Enter Your Password" style="margin-left: 7px;"><br><br>
+    <label>C Password:</label>
+   <input type="password" name="password2" placeholder="Confirm Password" ><br><br>
+
+   <button type="submit" name="submit" class="submit" >Submit</button><br>
+  <p>If Already Register? <a href="login">Login</a></p>
+</form>
+</div>
+  
+</body>
+</html>
